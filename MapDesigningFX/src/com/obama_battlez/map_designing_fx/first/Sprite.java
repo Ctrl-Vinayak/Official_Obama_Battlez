@@ -54,8 +54,8 @@ public class Sprite {
 
 	public static void addSprite() {
 		spriteBoi.setImage(front1_img);
-		spriteBoi.setX(700);
-		spriteBoi.setY(-25);
+		spriteBoi.setX(1100);
+		spriteBoi.setY(75);
 		spriteBoi.setFitWidth(100);
 		spriteBoi.setFitHeight(100);
 		Core.root.getChildren().add(spriteBoi);

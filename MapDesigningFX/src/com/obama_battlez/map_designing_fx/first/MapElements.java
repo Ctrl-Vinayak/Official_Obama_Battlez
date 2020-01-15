@@ -37,7 +37,7 @@ public class MapElements {
 	 */
 
 	//general tiles:
-	private static String groundStr = MapElements.class.getResource("resources/ground.png").toExternalForm();
+	private static String groundStr = MapElements.class.getResource("resources/groundOutline.png").toExternalForm();
 	private static Image groundImg = new Image(groundStr);
 	private static ImageView[] groundImgView = new ImageView[738];
 
