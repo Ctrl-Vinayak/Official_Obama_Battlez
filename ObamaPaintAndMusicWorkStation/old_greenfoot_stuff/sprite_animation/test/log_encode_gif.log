@@ -1,0 +1,544 @@
+ffmpeg version git-2019-11-19-0321bde Copyright (c) 2000-2019 the FFmpeg developers
+  built with gcc 9.2.1 (GCC) 20191010
+  configuration: --enable-gpl --enable-version3 --enable-sdl2 --enable-fontconfig --enable-gnutls --enable-iconv --enable-libass --enable-libdav1d --enable-libbluray --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libopus --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libtheora --enable-libtwolame --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libzimg --enable-lzma --enable-zlib --enable-gmp --enable-libvidstab --enable-libvorbis --enable-libvo-amrwbenc --enable-libmysofa --enable-libspeex --enable-libxvid --enable-libaom --enable-libmfx --enable-ffnvcodec --enable-cuvid --enable-d3d11va --enable-nvenc --enable-nvdec --enable-dxva2 --enable-avisynth --enable-libopenmpt --enable-amf
+  libavutil      56. 36.100 / 56. 36.100
+  libavcodec     58. 62.100 / 58. 62.100
+  libavformat    58. 35.100 / 58. 35.100
+  libavdevice    58.  9.101 / 58.  9.101
+  libavfilter     7. 66.100 /  7. 66.100
+  libswscale      5.  6.100 /  5.  6.100
+  libswresample   3.  6.100 /  3.  6.100
+  libpostproc    55.  6.100 / 55.  6.100
+Splitting the commandline.
+Reading option '-v' ... matched as option 'v' (set logging level) with argument 'debug'.
+Reading option '-nostdin' ... matched as option 'stdin' (enable or disable interaction on standard input) with argument 0.
+Reading option '-progress' ... matched as option 'progress' (write program-readable progress information) with argument 'C:/Users/vinay/AppData/Local/Temp/KritaFFmpegProgress.AFqJsh'.
+Reading option '-r' ... matched as option 'r' (set frame rate (Hz value, fraction or abbreviation)) with argument '24'.
+Reading option '-start_number' ... matched as AVOption 'start_number' with argument '0'.
+Reading option '-i' ... matched as input url with argument 'C:/Users/vinay/Desktop/sprite_animation/test/frame%04d.png'.
+Reading option '-i' ... matched as input url with argument 'C:/Users/vinay/Desktop/sprite_animation/test/palette.png'.
+Reading option '-lavfi' ... matched as option 'lavfi' (create a complex filtergraph) with argument '[0:v][1:v] paletteuse'.
+Reading option '-y' ... matched as option 'y' (overwrite output files) with argument '1'.
+Reading option 'C:/Users/vinay/Desktop/sprite_animation/test/test.gif' ... matched as output url.
+Finished splitting the commandline.
+Parsing a group of options: global .
+Applying option v (set logging level) with argument debug.
+Applying option nostdin (enable or disable interaction on standard input) with argument 0.
+Applying option progress (write program-readable progress information) with argument C:/Users/vinay/AppData/Local/Temp/KritaFFmpegProgress.AFqJsh.
+[file @ 000002525299ad80] Setting default whitelist 'file,crypto'
+Applying option lavfi (create a complex filtergraph) with argument [0:v][1:v] paletteuse.
+Applying option y (overwrite output files) with argument 1.
+Successfully parsed a group of options.
+Parsing a group of options: input url C:/Users/vinay/Desktop/sprite_animation/test/frame%04d.png.
+Applying option r (set frame rate (Hz value, fraction or abbreviation)) with argument 24.
+Successfully parsed a group of options.
+Opening an input file: C:/Users/vinay/Desktop/sprite_animation/test/frame%04d.png.
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0000.png' for reading
+[file @ 00000252529df100] Setting default whitelist 'file,crypto'
+[AVIOContext @ 00000252529e72c0] Statistics: 47771 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0001.png' for reading
+[file @ 00000252529e5680] Setting default whitelist 'file,crypto'
+[AVIOContext @ 00000252529e57c0] Statistics: 46696 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0002.png' for reading
+[file @ 00000252529e5700] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0000025252a09a00] Statistics: 46480 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0003.png' for reading
+[file @ 00000252529e5700] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0000025252a151c0] Statistics: 45801 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0004.png' for reading
+[file @ 00000252529e5700] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0000025252a20700] Statistics: 42800 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0005.png' for reading
+[file @ 00000252529e5700] Setting default whitelist 'file,crypto'
+[AVIOContext @ 00000252529e5a80] Statistics: 43103 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0006.png' for reading
+[file @ 00000252529e5700] Setting default whitelist 'file,crypto'
+[AVIOContext @ 00000252529e5c40] Statistics: 45231 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0007.png' for reading
+[file @ 00000252529e5700] Setting default whitelist 'file,crypto'
+[AVIOContext @ 00000252529e5e00] Statistics: 42568 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0008.png' for reading
+[file @ 00000252529e5700] Setting default whitelist 'file,crypto'
+[AVIOContext @ 00000252529e5fc0] Statistics: 42417 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0009.png' for reading
+[file @ 00000252529e5700] Setting default whitelist 'file,crypto'
+[AVIOContext @ 00000252529e6180] Statistics: 41725 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0010.png' for reading
+[file @ 00000252529e5700] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0000025252a60300] Statistics: 40977 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0011.png' for reading
+[file @ 00000252529e5700] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a140] Statistics: 38246 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0012.png' for reading
+[file @ 000002525367a140] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a240] Statistics: 37296 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0013.png' for reading
+[file @ 000002525367a140] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a240] Statistics: 38480 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0014.png' for reading
+[file @ 000002525367a140] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a240] Statistics: 39811 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0015.png' for reading
+[file @ 000002525367a140] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a240] Statistics: 39190 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0016.png' for reading
+[file @ 000002525367a140] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a240] Statistics: 39432 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0017.png' for reading
+[file @ 000002525367a140] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a240] Statistics: 39501 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0018.png' for reading
+[file @ 000002525367a140] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a240] Statistics: 39253 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0019.png' for reading
+[file @ 000002525367a140] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a240] Statistics: 39518 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0020.png' for reading
+[file @ 000002525367a140] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a240] Statistics: 39099 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0021.png' for reading
+[file @ 000002525367a140] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a240] Statistics: 39027 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0022.png' for reading
+[file @ 000002525367a140] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a240] Statistics: 38505 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0023.png' for reading
+[file @ 000002525367a140] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a240] Statistics: 38843 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0024.png' for reading
+[file @ 000002525367a140] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a240] Statistics: 38822 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0025.png' for reading
+[file @ 000002525367a140] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a240] Statistics: 38558 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0026.png' for reading
+[file @ 000002525367a140] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a240] Statistics: 38288 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0027.png' for reading
+[file @ 000002525367a140] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a240] Statistics: 38367 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0028.png' for reading
+[file @ 000002525367a140] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a240] Statistics: 37918 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0029.png' for reading
+[file @ 000002525367a140] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a240] Statistics: 38100 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0030.png' for reading
+[file @ 000002525367a140] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a240] Statistics: 37859 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0031.png' for reading
+[file @ 000002525367a140] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a240] Statistics: 37509 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0032.png' for reading
+[file @ 000002525367a140] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a240] Statistics: 37740 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0033.png' for reading
+[file @ 000002525367a140] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a240] Statistics: 37969 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0034.png' for reading
+[file @ 000002525367a140] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a240] Statistics: 38464 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0035.png' for reading
+[file @ 000002525367a140] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a240] Statistics: 38390 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0036.png' for reading
+[file @ 000002525367a140] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a240] Statistics: 38116 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0037.png' for reading
+[file @ 000002525367a140] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a240] Statistics: 38425 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0038.png' for reading
+[file @ 000002525367a140] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a240] Statistics: 38457 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0039.png' for reading
+[file @ 000002525367a140] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a240] Statistics: 38070 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0040.png' for reading
+[file @ 000002525367a140] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a240] Statistics: 37874 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0041.png' for reading
+[file @ 000002525367a140] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a240] Statistics: 38964 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0042.png' for reading
+[file @ 000002525367a140] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a240] Statistics: 39100 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0043.png' for reading
+[file @ 000002525367a140] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a240] Statistics: 38743 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0044.png' for reading
+[file @ 000002525367a140] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a240] Statistics: 38561 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0045.png' for reading
+[file @ 000002525367a140] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a240] Statistics: 38601 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0046.png' for reading
+[file @ 000002525367a140] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a240] Statistics: 39308 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0047.png' for reading
+[file @ 000002525367a140] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a240] Statistics: 41181 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0048.png' for reading
+[file @ 000002525367a140] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a240] Statistics: 41210 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0049.png' for reading
+[file @ 000002525367a140] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a240] Statistics: 40398 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0050.png' for reading
+[file @ 000002525367a140] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a240] Statistics: 38652 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0051.png' for reading
+[file @ 000002525367a140] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a240] Statistics: 40014 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0052.png' for reading
+[file @ 000002525367a140] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a240] Statistics: 41263 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0053.png' for reading
+[file @ 000002525367a140] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a240] Statistics: 41305 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0054.png' for reading
+[file @ 000002525367a140] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a240] Statistics: 39096 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0055.png' for reading
+[file @ 000002525367a140] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a240] Statistics: 39196 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0056.png' for reading
+[file @ 000002525367a140] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a240] Statistics: 38236 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0057.png' for reading
+[file @ 000002525367a140] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a240] Statistics: 38642 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0058.png' for reading
+[file @ 000002525367a140] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a240] Statistics: 39612 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0059.png' for reading
+[file @ 000002525367a140] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a240] Statistics: 41718 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0060.png' for reading
+[file @ 000002525367a140] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a240] Statistics: 40650 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0061.png' for reading
+[file @ 000002525367a140] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a240] Statistics: 40780 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0062.png' for reading
+[file @ 000002525367a140] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a240] Statistics: 39550 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0063.png' for reading
+[file @ 000002525367a140] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a240] Statistics: 40723 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0064.png' for reading
+[file @ 000002525367a140] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a240] Statistics: 41500 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0065.png' for reading
+[file @ 000002525367a140] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a240] Statistics: 42204 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0066.png' for reading
+[file @ 000002525367a140] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a240] Statistics: 41390 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0067.png' for reading
+[file @ 000002525367a140] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a240] Statistics: 40798 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0068.png' for reading
+[file @ 000002525367a140] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a240] Statistics: 38103 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0069.png' for reading
+[file @ 000002525386ef00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a140] Statistics: 38800 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0070.png' for reading
+[file @ 000002525386ef00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a140] Statistics: 39261 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0071.png' for reading
+[file @ 000002525386ef00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a140] Statistics: 40018 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0072.png' for reading
+[file @ 000002525386ef00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a140] Statistics: 40298 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0073.png' for reading
+[file @ 000002525386ef00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a140] Statistics: 38089 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0074.png' for reading
+[file @ 000002525386ef00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a140] Statistics: 39771 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0075.png' for reading
+[file @ 000002525386ef00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a140] Statistics: 39564 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0076.png' for reading
+[file @ 000002525386ef00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a140] Statistics: 38758 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0077.png' for reading
+[file @ 000002525386ef00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a140] Statistics: 41801 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0078.png' for reading
+[file @ 000002525386ef00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a140] Statistics: 41828 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0079.png' for reading
+[file @ 000002525386ef00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a140] Statistics: 40737 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0080.png' for reading
+[file @ 000002525386ef00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a140] Statistics: 43916 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0081.png' for reading
+[file @ 000002525386ef00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a140] Statistics: 45907 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0082.png' for reading
+[file @ 000002525386ef00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a140] Statistics: 46733 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0083.png' for reading
+[file @ 000002525386ef00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a140] Statistics: 46245 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0084.png' for reading
+[file @ 000002525386ef00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a140] Statistics: 47671 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0085.png' for reading
+[file @ 000002525386ef00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a140] Statistics: 49730 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0086.png' for reading
+[file @ 000002525386ef00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a140] Statistics: 48789 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0087.png' for reading
+[file @ 000002525386ef00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a140] Statistics: 48276 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0088.png' for reading
+[file @ 000002525386ef00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a140] Statistics: 46648 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0089.png' for reading
+[file @ 000002525386ef00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a140] Statistics: 48276 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0090.png' for reading
+[file @ 000002525386ef00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a140] Statistics: 46529 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0091.png' for reading
+[file @ 000002525386ef00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a140] Statistics: 47052 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0092.png' for reading
+[file @ 000002525386ef00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a140] Statistics: 43919 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0093.png' for reading
+[file @ 000002525386ef00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a140] Statistics: 40933 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0094.png' for reading
+[file @ 000002525386ef00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a140] Statistics: 40603 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0095.png' for reading
+[file @ 000002525386ef00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a140] Statistics: 39324 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0096.png' for reading
+[file @ 000002525386ef00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a140] Statistics: 40584 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0097.png' for reading
+[file @ 000002525386ef00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a140] Statistics: 40415 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0098.png' for reading
+[file @ 000002525386ef00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a140] Statistics: 39723 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0099.png' for reading
+[file @ 000002525386ef00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a140] Statistics: 39338 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0100.png' for reading
+[file @ 000002525386ef00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a140] Statistics: 37969 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0101.png' for reading
+[file @ 000002525386ef00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a140] Statistics: 38152 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0102.png' for reading
+[file @ 000002525386ef00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a140] Statistics: 38683 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0103.png' for reading
+[file @ 000002525386ef00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a140] Statistics: 38383 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0104.png' for reading
+[file @ 000002525386ef00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a140] Statistics: 38690 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0105.png' for reading
+[file @ 000002525386ef00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a140] Statistics: 38439 bytes read, 0 seeks
+[image2 @ 00000252529db980] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/frame0106.png' for reading
+[file @ 000002525386ef00] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000002525367a140] Statistics: 38432 bytes read, 0 seeks
+Input #0, image2, from 'C:/Users/vinay/Desktop/sprite_animation/test/frame%04d.png':
+  Duration: 00:00:04.28, start: 0.000000, bitrate: N/A
+    Stream #0:0, 107, 1/25: Video: png, 1 reference frame, rgba(pc), 1920x1080 [SAR 2834:2834 DAR 16:9], 0/1, 25 fps, 25 tbr, 25 tbn, 25 tbc
+Successfully opened the file.
+Parsing a group of options: input url C:/Users/vinay/Desktop/sprite_animation/test/palette.png.
+Successfully parsed a group of options.
+Opening an input file: C:/Users/vinay/Desktop/sprite_animation/test/palette.png.
+[NULL @ 0000025252a06dc0] Opening 'C:/Users/vinay/Desktop/sprite_animation/test/palette.png' for reading
+[file @ 000002525386ef00] Setting default whitelist 'file,crypto'
+[png_pipe @ 0000025252a06dc0] Format png_pipe probed with size=2048 and score=99
+[png_pipe @ 0000025252a06dc0] Before avformat_find_stream_info() pos: 0 bytes read:104 seeks:0 nb_streams:1
+[png_pipe @ 0000025252a06dc0] After avformat_find_stream_info() pos: 104 bytes read:104 seeks:0 frames:1
+Input #1, png_pipe, from 'C:/Users/vinay/Desktop/sprite_animation/test/palette.png':
+  Duration: N/A, bitrate: N/A
+    Stream #1:0, 1, 1/25: Video: png, 1 reference frame, rgba(pc), 16x16 [SAR 1:1 DAR 1:1], 0/1, 25 tbr, 25 tbn, 25 tbc
+Successfully opened the file.
+Parsing a group of options: output url C:/Users/vinay/Desktop/sprite_animation/test/test.gif.
+Successfully parsed a group of options.
+Opening an output file: C:/Users/vinay/Desktop/sprite_animation/test/test.gif.
+[file @ 00000252529df040] Setting default whitelist 'file,crypto'
+Successfully opened the file.
+detected 12 logical cores
+Stream mapping:
+  Stream #0:0 (png) -> paletteuse:default
+  Stream #1:0 (png) -> paletteuse:palette
+  paletteuse -> Stream #0:0 (gif)
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+    Last message repeated 1930 times
+[image2 @ 00000252529db980] Thread message queue blocking; consider raising the thread_queue_size option (current value: 8)
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+    Last message repeated 13 times
+[graph 0 input from stream 0:0 @ 00000252529e5bc0] Setting 'video_size' to value '1920x1080'
+[graph 0 input from stream 0:0 @ 00000252529e5bc0] Setting 'pix_fmt' to value '26'
+[graph 0 input from stream 0:0 @ 00000252529e5bc0] Setting 'time_base' to value '1/24'
+[graph 0 input from stream 0:0 @ 00000252529e5bc0] Setting 'pixel_aspect' to value '2834/2834'
+[graph 0 input from stream 0:0 @ 00000252529e5bc0] Setting 'sws_param' to value 'flags=2'
+[graph 0 input from stream 0:0 @ 00000252529e5bc0] Setting 'frame_rate' to value '24/1'
+[graph 0 input from stream 0:0 @ 00000252529e5bc0] w:1920 h:1080 pixfmt:rgba tb:1/24 fr:24/1 sar:2834/2834 sws_param:flags=2
+[graph 0 input from stream 1:0 @ 00000252529fa4c0] Setting 'video_size' to value '16x16'
+[graph 0 input from stream 1:0 @ 00000252529fa4c0] Setting 'pix_fmt' to value '26'
+[graph 0 input from stream 1:0 @ 00000252529fa4c0] Setting 'time_base' to value '1/25'
+[graph 0 input from stream 1:0 @ 00000252529fa4c0] Setting 'pixel_aspect' to value '1/1'
+[graph 0 input from stream 1:0 @ 00000252529fa4c0] Setting 'sws_param' to value 'flags=2'
+[graph 0 input from stream 1:0 @ 00000252529fa4c0] Setting 'frame_rate' to value '25/1'
+[graph 0 input from stream 1:0 @ 00000252529fa4c0] w:16 h:16 pixfmt:rgba tb:1/25 fr:25/1 sar:1/1 sws_param:flags=2
+[format @ 00000252529e2ec0] Setting 'pix_fmts' to value 'rgb8|bgr8|rgb4_byte|bgr4_byte|gray|pal8'
+[auto_scaler_0 @ 0000025253bfb740] w:iw h:ih flags:'bilinear' interl:0
+[Parsed_paletteuse_0 @ 00000252529e6100] auto-inserting filter 'auto_scaler_0' between the filter 'graph 0 input from stream 0:0' and the filter 'Parsed_paletteuse_0'
+[auto_scaler_1 @ 0000025253bfb840] w:iw h:ih flags:'bilinear' interl:0
+[Parsed_paletteuse_0 @ 00000252529e6100] auto-inserting filter 'auto_scaler_1' between the filter 'graph 0 input from stream 1:0' and the filter 'Parsed_paletteuse_0'
+[AVFilterGraph @ 000002525391a000] query_formats: 5 queried, 2 merged, 2 already done, 0 delayed
+[swscaler @ 0000025253c06880] Forcing full internal H chroma due to input having non subsampled chroma
+[auto_scaler_0 @ 0000025253bfb740] w:1920 h:1080 fmt:rgba sar:2834/2834 -> w:1920 h:1080 fmt:bgra sar:1/1 flags:0x2
+[swscaler @ 0000025253c3de80] Forcing full internal H chroma due to input having non subsampled chroma
+[auto_scaler_1 @ 0000025253bfb840] w:16 h:16 fmt:rgba sar:1/1 -> w:16 h:16 fmt:bgra sar:1/1 flags:0x2
+[Parsed_paletteuse_0 @ 00000252529e6100] [framesync @ 0000025253b72d88] Selected 1/600 time base
+[Parsed_paletteuse_0 @ 00000252529e6100] [framesync @ 0000025253b72d88] Sync level 2
+Output #0, gif, to 'C:/Users/vinay/Desktop/sprite_animation/test/test.gif':
+  Metadata:
+    encoder         : Lavf58.35.100
+    Stream #0:0, 0, 1/100: Video: gif, 1 reference frame, pal8, 1920x1080 [SAR 1:1 DAR 16:9], 0/1, q=2-31, 200 kb/s, 24 fps, 100 tbn, 24 tbc (default)
+    Metadata:
+      encoder         : Lavc58.62.100 gif
+Clipping frame in rate conversion by 0.000008
+[gif @ 00000252529de340] 1083x367 image at pos (465;353) [area:1920x1080]
+[gif @ 00000252529de340] 1107x311 image at pos (311;552) [area:1920x1080]
+[gif @ 00000252529de340] 1179x211 image at pos (440;494) [area:1920x1080]
+[gif @ 00000252529de340] 1155x76 image at pos (421;544) [area:1920x1080]
+[gif @ 00000252529de340] 1229x93 image at pos (415;562) [area:1920x1080]
+[gif @ 00000252529de340] 1224x165 image at pos (423;542) [area:1920x1080]
+[gif @ 00000252529de340] 729x136 image at pos (739;564) [area:1920x1080]
+[gif @ 00000252529de340] 576x191 image at pos (987;592) [area:1920x1080]
+[gif @ 00000252529de340] 441x225 image at pos (1327;668) [area:1920x1080]
+[gif @ 00000252529de340] 339x249 image at pos (1581;747) [area:1920x1080]
+[gif @ 00000252529de340] 132x93 image at pos (1788;873) [area:1920x1080]
+[gif @ 00000252529de340] 57x51 image at pos (1863;932) [area:1920x1080]
+frame=   13 fps=0.0 q=-0.0 size=      19kB time=00:00:00.51 bitrate= 310.7kbits/s speed=1.01x    [gif @ 00000252529de340] 144x101 image at pos (1713;979) [area:1920x1080]
+[gif @ 00000252529de340] 238x161 image at pos (1535;887) [area:1920x1080]
+[gif @ 00000252529de340] 198x135 image at pos (1451;843) [area:1920x1080]
+[gif @ 00000252529de340] 228x146 image at pos (1347;804) [area:1920x1080]
+[gif @ 00000252529de340] 227x128 image at pos (1234;761) [area:1920x1080]
+[gif @ 00000252529de340] 219x121 image at pos (1129;720) [area:1920x1080]
+[gif @ 00000252529de340] 243x106 image at pos (1004;694) [area:1920x1080]
+[gif @ 00000252529de340] 219x76 image at pos (934;696) [area:1920x1080]
+[gif @ 00000252529de340] 312x63 image at pos (699;702) [area:1920x1080]
+[gif @ 00000252529de340] 192x67 image at pos (617;714) [area:1920x1080]
+[gif @ 00000252529de340] 221x72 image at pos (508;726) [area:1920x1080]
+[gif @ 00000252529de340] 211x82 image at pos (416;744) [area:1920x1080]
+[gif @ 00000252529de340] 169x99 image at pos (332;786) [area:1920x1080]
+[gif @ 00000252529de340] 129x98 image at pos (257;837) [area:1920x1080]
+frame=   27 fps= 27 q=-0.0 size=      27kB time=00:00:01.09 bitrate= 199.7kbits/s speed=1.08x    [gif @ 00000252529de340] 136x92 image at pos (171;874) [area:1920x1080]
+[gif @ 00000252529de340] 132x44 image at pos (101;918) [area:1920x1080]
+[gif @ 00000252529de340] 96x73 image at pos (65;879) [area:1920x1080]
+[gif @ 00000252529de340] 46x95 image at pos (52;806) [area:1920x1080]
+[gif @ 00000252529de340] 48x66 image at pos (42;761) [area:1920x1080]
+[gif @ 00000252529de340] 65x72 image at pos (65;716) [area:1920x1080]
+[gif @ 00000252529de340] 101x68 image at pos (94;675) [area:1920x1080]
+[gif @ 00000252529de340] 165x80 image at pos (158;637) [area:1920x1080]
+[gif @ 00000252529de340] 160x69 image at pos (253;607) [area:1920x1080]
+[gif @ 00000252529de340] 137x64 image at pos (344;591) [area:1920x1080]
+[gif @ 00000252529de340] 175x63 image at pos (406;572) [area:1920x1080]
+[gif @ 00000252529de340] 186x59 image at pos (510;548) [area:1920x1080]
+[gif @ 00000252529de340] 166x51 image at pos (578;546) [area:1920x1080]
+[gif @ 00000252529de340] 170x42 image at pos (629;544) [area:1920x1080]
+frame=   41 fps= 27 q=-0.0 size=      31kB time=00:00:01.68 bitrate= 152.6kbits/s speed=1.11x    [gif @ 00000252529de340] 252x64 image at pos (709;538) [area:1920x1080]
+[gif @ 00000252529de340] 204x88 image at pos (831;547) [area:1920x1080]
+[gif @ 00000252529de340] 164x82 image at pos (931;580) [area:1920x1080]
+[gif @ 00000252529de340] 207x56 image at pos (1019;612) [area:1920x1080]
+[gif @ 00000252529de340] 154x102 image at pos (1157;555) [area:1920x1080]
+[gif @ 00000252529de340] 86x180 image at pos (1258;435) [area:1920x1080]
+[gif @ 00000252529de340] 163x272 image at pos (1179;253) [area:1920x1080]
+[gif @ 00000252529de340] 310x245 image at pos (966;128) [area:1920x1080]
+[gif @ 00000252529de340] 356x131 image at pos (768;82) [area:1920x1080]
+[gif @ 00000252529de340] 222x64 image at pos (685;78) [area:1920x1080]
+[gif @ 00000252529de340] 243x224 image at pos (522;76) [area:1920x1080]
+[gif @ 00000252529de340] 134x305 image at pos (438;215) [area:1920x1080]
+[gif @ 00000252529de340] 116x278 image at pos (430;425) [area:1920x1080]
+[gif @ 00000252529de340] 274x63 image at pos (483;666) [area:1920x1080]
+[gif @ 00000252529de340] 405x54 image at pos (675;684) [area:1920x1080]
+frame=   56 fps= 28 q=-0.0 size=      41kB time=00:00:02.30 bitrate= 144.6kbits/s speed=1.13x    [gif @ 00000252529de340] 311x42 image at pos (977;702) [area:1920x1080]
+[gif @ 00000252529de340] 361x45 image at pos (1200;706) [area:1920x1080]
+[gif @ 00000252529de340] 289x102 image at pos (1457;660) [area:1920x1080]
+[gif @ 00000252529de340] 94x356 image at pos (1656;353) [area:1920x1080]
+[gif @ 00000252529de340] 260x212 image at pos (1436;181) [area:1920x1080]
+[gif @ 00000252529de340] 693x68 image at pos (830;176) [area:1920x1080]
+[gif @ 00000252529de340] 456x65 image at pos (595;188) [area:1920x1080]
+[gif @ 00000252529de340] 409x131 image at pos (286;206) [area:1920x1080]
+[gif @ 00000252529de340] 242x311 image at pos (109;286) [area:1920x1080]
+[gif @ 00000252529de340] 291x283 image at pos (98;537) [area:1920x1080]
+[gif @ 00000252529de340] 485x195 image at pos (344;621) [area:1920x1080]
+[gif @ 00000252529de340] 655x64 image at pos (772;600) [area:1920x1080]
+[gif @ 00000252529de340] 190x45 image at pos (1377;632) [area:1920x1080]
+[gif @ 00000252529de340] 226x67 image at pos (1507;634) [area:1920x1080]
+[gif @ 00000252529de340] 187x127 image at pos (1683;581) [area:1920x1080]
+frame=   71 fps= 28 q=-0.0 size=      51kB time=00:00:02.93 bitrate= 143.8kbits/s speed=1.15x    [gif @ 00000252529de340] 124x224 image at pos (1758;411) [area:1920x1080]
+[gif @ 00000252529de340] 373x117 image at pos (1443;348) [area:1920x1080]
+[gif @ 00000252529de340] 190x46 image at pos (1279;350) [area:1920x1080]
+[gif @ 00000252529de340] 504x61 image at pos (840;366) [area:1920x1080]
+[gif @ 00000252529de340] 467x62 image at pos (490;378) [area:1920x1080]
+[gif @ 00000252529de340] 223x63 image at pos (324;396) [area:1920x1080]
+[gif @ 00000252529de340] 149x281 image at pos (220;357) [area:1920x1080]
+[gif @ 00000252529de340] 199x439 image at pos (230;259) [area:1920x1080]
+[gif @ 00000252529de340] 281x477 image at pos (359;251) [area:1920x1080]
+[gif @ 00000252529de340] 342x715 image at pos (515;159) [area:1920x1080]
+[gif @ 00000252529de340] 327x915 image at pos (791;15) [area:1920x1080]
+[gif @ 00000252529de340] 565x981 image at pos (822;0) [area:1920x1080]
+[gif @ 00000252529de340] 459x731 image at pos (1132;305) [area:1920x1080]
+[gif @ 00000252529de340] 640x623 image at pos (1047;409) [area:1920x1080]
+frame=   85 fps= 28 q=-0.0 size=      67kB time=00:00:03.51 bitrate= 157.1kbits/s speed=1.15x    [gif @ 00000252529de340] 674x536 image at pos (1022;439) [area:1920x1080]
+[gif @ 00000252529de340] 673x525 image at pos (1024;357) [area:1920x1080]
+[gif @ 00000252529de340] 694x544 image at pos (938;352) [area:1920x1080]
+[gif @ 00000252529de340] 746x642 image at pos (857;283) [area:1920x1080]
+[gif @ 00000252529de340] 1050x802 image at pos (677;184) [area:1920x1080]
+[gif @ 00000252529de340] 1236x897 image at pos (637;95) [area:1920x1080]
+[gif @ 00000252529de340] 1475x1021 image at pos (445;0) [area:1920x1080]
+[gif @ 00000252529de340] 1516x1012 image at pos (404;0) [area:1920x1080]
+[gif @ 00000252529de340] 1664x1010 image at pos (256;0) [area:1920x1080]
+[gif @ 00000252529de340] 1755x1017 image at pos (165;0) [area:1920x1080]
+[gif @ 00000252529de340] 184x155 image at pos (107;274) [area:1920x1080]
+[gif @ 00000252529de340] 147x280 image at pos (44;322) [area:1920x1080]
+frame=   97 fps= 27 q=-0.0 size=     101kB time=00:00:04.01 bitrate= 205.4kbits/s speed=1.13x    [gif @ 00000252529de340] 168x209 image at pos (34;491) [area:1920x1080]
+[gif @ 00000252529de340] 394x77 image at pos (149;621) [area:1920x1080]
+[gif @ 00000252529de340] 290x87 image at pos (454;572) [area:1920x1080]
+[gif @ 00000252529de340] 235x42 image at pos (669;568) [area:1920x1080]
+[gif @ 00000252529de340] 210x44 image at pos (845;564) [area:1920x1080]
+[gif @ 00000252529de340] 161x77 image at pos (1002;558) [area:1920x1080]
+[gif @ 00000252529de340] 77x105 image at pos (1117;598) [area:1920x1080]
+[gif @ 00000252529de340] 68x131 image at pos (1130;666) [area:1920x1080]
+[gif @ 00000252529de340] 167x72 image at pos (1004;756) [area:1920x1080]
+[gif @ 00000252529de340] 165x72 image at pos (914;754) [area:1920x1080]
+[Parsed_paletteuse_0 @ 00000252529e6100] [framesync @ 0000025253b72d88] Sync level 0
+[out_0_0 @ 00000252529e2dc0] EOF on sink link out_0_0:default.
+No more output streams to write to, finishing.
+frame=  107 fps= 27 q=-0.0 Lsize=     106kB time=00:00:04.43 bitrate= 196.0kbits/s speed=1.12x    
+[AVIOContext @ 00000252529db800] Statistics: 0 seeks, 8 writeouts
+video:106kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.018428%
+Input file #0 (C:/Users/vinay/Desktop/sprite_animation/test/frame%04d.png):
+  Input stream #0:0 (video): 107 packets read (4358478 bytes); 107 frames decoded; 
+  Total: 107 packets (4358478 bytes) demuxed
+Input file #1 (C:/Users/vinay/Desktop/sprite_animation/test/palette.png):
+  Input stream #1:0 (video): 1 packets read (104 bytes); 1 frames decoded; 
+  Total: 1 packets (104 bytes) demuxed
+Output file #0 (C:/Users/vinay/Desktop/sprite_animation/test/test.gif):
+  Output stream #0:0 (video): 107 frames encoded; 107 packets muxed (108529 bytes); 
+  Total: 107 packets (108529 bytes) muxed
+108 frames successfully decoded, 0 decoding errors
+[AVIOContext @ 00000252529df140] Statistics: 0 seeks, 1 writeouts
+[AVIOContext @ 0000025252a6edc0] Statistics: 104 bytes read, 0 seeks
