@@ -7,6 +7,7 @@ import javafx.event.EventHandler;
 import javafx.geometry.Orientation;
 import javafx.scene.control.ScrollBar;
 import javafx.scene.image.ImageView;
+import javafx.scene.input.ScrollEvent;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Rectangle;
 
@@ -17,6 +18,7 @@ public class UI_Menu {
 	public static int selectedTile = 0;
 	
 	public static ScrollBar sb = new ScrollBar();
+	public static double yScroll = 0;
 	
 	public static Rectangle UI_MenuBG = new Rectangle();
 	

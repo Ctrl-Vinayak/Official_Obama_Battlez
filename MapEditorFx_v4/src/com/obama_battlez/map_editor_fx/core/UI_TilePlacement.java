@@ -36,7 +36,6 @@ public class UI_TilePlacement {
 
 			@Override
 			public void handle(MouseEvent event) {
-				
 				map2dArrayListRow.add(new ImageView(ME_Resource.imgArrayList.get(UI_Menu.selectedTile)));
 				mouseX = ((((int) (event.getX() / 100 * 100) - (int) (event.getX() % 100)) + 99) / 100) * 100;
 				mouseY = ((((int) (event.getY() / 100 * 100) - (int) (event.getY() % 100)) + 99) / 100) * 100;

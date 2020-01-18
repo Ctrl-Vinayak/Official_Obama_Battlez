@@ -30,6 +30,12 @@ public class ME_Resource {
 		imgArrayList.add(new Image(ME_Resource.class.getResource("resources/sandGroundHalf3.png").toExternalForm()));
 		imgArrayList.add(new Image(ME_Resource.class.getResource("resources/sandGroundHalf4.png").toExternalForm()));
 		
+		//sand ground quarters:...
+		imgArrayList.add(new Image(ME_Resource.class.getResource("resources/sandGroundQuarter1.png").toExternalForm()));
+		imgArrayList.add(new Image(ME_Resource.class.getResource("resources/sandGroundQuarter2.png").toExternalForm()));
+		imgArrayList.add(new Image(ME_Resource.class.getResource("resources/sandGroundQuarter3.png").toExternalForm()));
+		imgArrayList.add(new Image(ME_Resource.class.getResource("resources/sandGroundQuarter4.png").toExternalForm()));
+		
 		//sand water Edges:
 		imgArrayList.add(new Image(ME_Resource.class.getResource("resources/sandWaterEdge1.png").toExternalForm()));
 		imgArrayList.add(new Image(ME_Resource.class.getResource("resources/sandWaterEdge2.png").toExternalForm()));
@@ -42,10 +48,20 @@ public class ME_Resource {
 		imgArrayList.add(new Image(ME_Resource.class.getResource("resources/sandWaterHalf3.png").toExternalForm()));
 		imgArrayList.add(new Image(ME_Resource.class.getResource("resources/sandWaterHalf4.png").toExternalForm()));
 		
+		//sand water quarters:...
+		imgArrayList.add(new Image(ME_Resource.class.getResource("resources/sandWaterQuarter1.png").toExternalForm()));
+		imgArrayList.add(new Image(ME_Resource.class.getResource("resources/sandWaterQuarter2.png").toExternalForm()));
+		imgArrayList.add(new Image(ME_Resource.class.getResource("resources/sandWaterQuarter3.png").toExternalForm()));
+		imgArrayList.add(new Image(ME_Resource.class.getResource("resources/sandWaterQuarter4.png").toExternalForm()));
+		
 		//new tiles:
 		imgArrayList.add(new Image(ME_Resource.class.getResource("resources/water2.gif").toExternalForm()));
 		imgArrayList.add(new Image(ME_Resource.class.getResource("resources/icyGround.png").toExternalForm()));
 		imgArrayList.add(new Image(ME_Resource.class.getResource("resources/mixedGrassGround1.png").toExternalForm()));
 		imgArrayList.add(new Image(ME_Resource.class.getResource("resources/mixedGrassGround2.png").toExternalForm()));
+		imgArrayList.add(new Image(ME_Resource.class.getResource("resources/mixedGrassGround3.png").toExternalForm()));
+		imgArrayList.add(new Image(ME_Resource.class.getResource("resources/floor1.png").toExternalForm()));
+		imgArrayList.add(new Image(ME_Resource.class.getResource("resources/floor2.png").toExternalForm()));
+		imgArrayList.add(new Image(ME_Resource.class.getResource("resources/floor3.png").toExternalForm()));
 	}
 }

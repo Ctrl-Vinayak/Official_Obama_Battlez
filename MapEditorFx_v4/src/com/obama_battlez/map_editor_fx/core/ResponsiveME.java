@@ -8,16 +8,17 @@ public class ResponsiveME {
 	}
 	
 	public static void resp_TileSelection() {
+		UI_Menu.yScroll = UI_Menu.sb.getValue() * 50;
 		for (int i = 0; i < ME_Resource.imgArrayList.size(); i++) {
 			if (i % 3 == 0) {
 				UI_Menu.imgViewArrayMenuList.get(i).setX(ME_CoreFX.sceneWidth - 250 + 20);
-				UI_Menu.imgViewArrayMenuList.get(i).setY(i * 20 + 20);
+				UI_Menu.imgViewArrayMenuList.get(i).setY(i * 20 + 20 - UI_Menu.yScroll);
 			} else if (i % 3 == 1) {
 				UI_Menu.imgViewArrayMenuList.get(i).setX(ME_CoreFX.sceneWidth - 250 + 20 + 50 + 20);
-				UI_Menu.imgViewArrayMenuList.get(i).setY((i - 1) * 20 + 20);
+				UI_Menu.imgViewArrayMenuList.get(i).setY((i - 1) * 20 + 20 - UI_Menu.yScroll);
 			} else {
 				UI_Menu.imgViewArrayMenuList.get(i).setX(ME_CoreFX.sceneWidth - 250 + 20 + 50 + 20 + 50 + 20);
-				UI_Menu.imgViewArrayMenuList.get(i).setY((i - 2) * 20 + 20);
+				UI_Menu.imgViewArrayMenuList.get(i).setY((i - 2) * 20 + 20 - UI_Menu.yScroll);
 			}
 		}
 	}

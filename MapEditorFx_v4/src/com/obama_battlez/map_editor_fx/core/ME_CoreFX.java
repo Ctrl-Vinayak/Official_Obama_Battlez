@@ -12,7 +12,7 @@ import javafx.stage.Stage;
  * @since 17-1-2020
  * @author vinayak
  * @category Map Editor // Obama Battlez Dev
- * @version v1.1
+ * @version v1.2
  */
 public class ME_CoreFX extends Application {
 
