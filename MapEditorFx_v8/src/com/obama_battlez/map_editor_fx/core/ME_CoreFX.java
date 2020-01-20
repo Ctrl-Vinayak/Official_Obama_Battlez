@@ -60,6 +60,26 @@ public class ME_CoreFX extends Application {
 	public static double mouseX;
 	public static double mouseY;
 	
+	public static double minMouseX = 0;
+	public static double minMouseY = 0;
+	public static double maxMouseX = 0;
+	public static double maxMouseY = 0;
+	public static double deltaMouseX = 0;
+	public static double deltaMouseY = 0;
+	public static double TileFronZeroX = 0;
+	public static double TileFronZeroY = 0;
+	
+	public static ArrayList<Integer> selectedTileList = new ArrayList<Integer>();
+	public static ArrayList<Integer> minRowX = new ArrayList<Integer>();
+	public static ArrayList<Integer> minRowY = new ArrayList<Integer>();
+	public static ArrayList<Integer> maxRowX = new ArrayList<Integer>();
+	public static ArrayList<Integer> maxRowY = new ArrayList<Integer>();
+	public static ArrayList<Integer> getRowX = new ArrayList<Integer>();
+	public static ArrayList<Integer> getRowY = new ArrayList<Integer>();
+	public static boolean isOnceAddedToMap = false;
+	
+	public static int tileRows = 0;
+	
 	public static Camera camera = new PerspectiveCamera();
 	public static int cameraPosX = 0;
 	public static int cameraPosY = 0;

@@ -6,15 +6,23 @@ public class ME_Resource {
 	
 	public static void addResources() {
 		//general tiles:
+		ME_CoreFX.imgArrayList.add(new Image(ME_Resource.class.getResource("resources/void.png").toExternalForm()));
 		ME_CoreFX.imgArrayList.add(new Image(ME_Resource.class.getResource("resources/ground.png").toExternalForm()));
 		ME_CoreFX.imgArrayList.add(new Image(ME_Resource.class.getResource("resources/tree1.png").toExternalForm()));
-		ME_CoreFX.imgArrayList.add(new Image(ME_Resource.class.getResource("resources/tree2.png").toExternalForm()));
-		ME_CoreFX.imgArrayList.add(new Image(ME_Resource.class.getResource("resources/tree3.png").toExternalForm()));
+//		ME_CoreFX.imgArrayList.add(new Image(ME_Resource.class.getResource("resources/tree2.png").toExternalForm()));
+//		ME_CoreFX.imgArrayList.add(new Image(ME_Resource.class.getResource("resources/tree3.png").toExternalForm()));
 		ME_CoreFX.imgArrayList.add(new Image(ME_Resource.class.getResource("resources/grass.png").toExternalForm()));
 		ME_CoreFX.imgArrayList.add(new Image(ME_Resource.class.getResource("resources/house.png").toExternalForm()));
 		ME_CoreFX.imgArrayList.add(new Image(ME_Resource.class.getResource("resources/sand.png").toExternalForm()));
 		ME_CoreFX.imgArrayList.add(new Image(ME_Resource.class.getResource("resources/water.gif").toExternalForm()));
 		ME_CoreFX.imgArrayList.add(new Image(ME_Resource.class.getResource("resources/road.png").toExternalForm()));
+//		ME_CoreFX.imgArrayList.add(new Image(ME_Resource.class.getResource("resources/creeper1.png").toExternalForm()));
+//		ME_CoreFX.imgArrayList.add(new Image(ME_Resource.class.getResource("resources/herobrine.png").toExternalForm()));
+//		ME_CoreFX.imgArrayList.add(new Image(ME_Resource.class.getResource("resources/barackuyashu.png").toExternalForm()));
+//		ME_CoreFX.imgArrayList.add(new Image(ME_Resource.class.getResource("resources/Captain-sparklez-skin.png").toExternalForm()));
+//		ME_CoreFX.imgArrayList.add(new Image(ME_Resource.class.getResource("resources/obamaBoi1.png").toExternalForm()));
+//		ME_CoreFX.imgArrayList.add(new Image(ME_Resource.class.getResource("resources/robloxguy1.png").toExternalForm()));
+//		ME_CoreFX.imgArrayList.add(new Image(ME_Resource.class.getResource("resources/sagiri-captainsparklez.png").toExternalForm()));
 		
 		//sand ground Edges:
 		ME_CoreFX.imgArrayList.add(new Image(ME_Resource.class.getResource("resources/sandGroundEgde1.png").toExternalForm()));

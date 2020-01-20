@@ -1,5 +1,7 @@
 package com.obama_battlez.map_editor_fx.core;
 
+import java.util.ArrayList;
+
 import javafx.event.EventHandler;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
@@ -27,12 +29,13 @@ public class UI_TilePlacement {
 					
 					ME_CoreFX.map2dArrayListRow.add(new ImageView(ME_CoreFX.imgArrayList.get(ME_CoreFX.selectedTile)));
 
+					//Mouse X Tile Placement
 					if ((int) event.getX() + ME_CoreFX.cameraPosX > 0) {
 						ME_CoreFX.mouseX = (int) (Math.round(((int) (event.getX() + ME_CoreFX.cameraPosX)) / 100) * 100);
 					} else {
 						ME_CoreFX.mouseX = Math.floorDiv((int) event.getX() + ME_CoreFX.cameraPosX, 100) * 100;
 					}
-					
+					//Mouse Y Tile Placement
 					if ((int) event.getY() + ME_CoreFX.cameraPosY > 0) {
 						ME_CoreFX.mouseY = (int) (Math.round(((int) (event.getY() + ME_CoreFX.cameraPosY)) / 100) * 100);
 					} else {
@@ -43,45 +46,70 @@ public class UI_TilePlacement {
 					ME_CoreFX.map2dArrayListRow.get(ME_CoreFX.totalTiles).setY(ME_CoreFX.mouseY);
 					ME_CoreFX.root.getChildren().add(ME_CoreFX.map2dArrayListRow.get(ME_CoreFX.totalTiles));
 					
-					ME_CoreFX.totalTiles++;
-					System.out.println("total tiles in the map: " + ME_CoreFX.totalTiles);
-					System.out.println("selectedTile added: " + ME_CoreFX.selectedTile);
-					System.out.println("map2dArrayListRow.get(totalTiles).setx: " + ME_CoreFX.map2dArrayListRow.get(ME_CoreFX.totalTiles - 1).getX());
-					System.out.println("map2dArrayListRow.get(totalTiles).sety: " + ME_CoreFX.map2dArrayListRow.get(ME_CoreFX.totalTiles - 1).getY());
+						/*
+						 * Begin
+						 * Important Code for getting the arraylist map constructing.
+						 * 
+						 * */
+	
+						//Setting Minimum X Placement.
+						if (ME_CoreFX.mouseX < ME_CoreFX.minMouseX) {
+							ME_CoreFX.minMouseX = ME_CoreFX.mouseX;
+							ME_CoreFX.TileFronZeroX = ME_CoreFX.minMouseX / -1;
+						}
+						//Setting Minimum Y Placement.
+						if (ME_CoreFX.mouseY < ME_CoreFX.minMouseY) {
+							ME_CoreFX.minMouseY = ME_CoreFX.mouseY;
+							ME_CoreFX.TileFronZeroY = ME_CoreFX.minMouseY / -1;
+						}
+						//Setting Maximum X Placement.
+						if (ME_CoreFX.mouseX > ME_CoreFX.maxMouseX) {
+							ME_CoreFX.maxMouseX = ME_CoreFX.mouseX;
+						}
+						//Setting Maximum Y Placement.
+						if (ME_CoreFX.mouseY > ME_CoreFX.maxMouseY) {
+							ME_CoreFX.maxMouseY = ME_CoreFX.mouseY;
+						}
+						//calculating the difference between minimum x, y and maximum x, y.
+						ME_CoreFX.deltaMouseX = ME_CoreFX.maxMouseX - ME_CoreFX.minMouseX;
+						ME_CoreFX.deltaMouseY = ME_CoreFX.maxMouseY - ME_CoreFX.minMouseY;
+						
+						//add selected tile into the selected tile list.
+						ME_CoreFX.selectedTileList.add(ME_CoreFX.selectedTile);
+						
+						
+						
+						
+						
+						
+						for (int i = 0; i < ME_CoreFX.map2dArrayListRow.size(); i++) {
+							//System.out.println((int) ME_CoreFX.map2dArrayListRow.get(i).getX() + " x " + (int) ME_CoreFX.map2dArrayListRow.get(i).getY());
+							ME_CoreFX.getRowX.add(i, (int) ME_CoreFX.map2dArrayListRow.get(i).getX());
+							ME_CoreFX.getRowY.add(i, (int) ME_CoreFX.map2dArrayListRow.get(i).getY());
+						}
+						
+						/*
+						 * Important Code for getting the arraylist map constructing.
+						 * End
+						 * 
+						 * */
 					
 					// REMOVE AND ADD ELEMENTS TO LAYOUT!
-					ME_CoreFX.root.getChildren().remove(ME_CoreFX.totalTiles - 1);
+					ME_CoreFX.root.getChildren().remove(ME_CoreFX.totalTiles);
 					ME_CoreFX.root.getChildren().add(ME_CoreFX.UI_PlaceTileBG);
-					ME_CoreFX.root.getChildren().remove(ME_CoreFX.totalTiles - 1);
+					ME_CoreFX.root.getChildren().remove(ME_CoreFX.totalTiles);
 					ME_CoreFX.root.getChildren().add(ME_CoreFX.UI_MenuBG);
 					for (int i = 0; i < ME_CoreFX.imgViewArrayMenuList.size(); i++) {
-						ME_CoreFX.root.getChildren().remove(ME_CoreFX.totalTiles - 1);
+						ME_CoreFX.root.getChildren().remove(ME_CoreFX.totalTiles);
 						ME_CoreFX.root.getChildren().add(ME_CoreFX.imgViewArrayMenuList.get(i));
 					}
-					ME_CoreFX.root.getChildren().remove(ME_CoreFX.totalTiles - 1);
+					ME_CoreFX.root.getChildren().remove(ME_CoreFX.totalTiles);
 					ME_CoreFX.root.getChildren().add(ME_CoreFX.sb);
-					ME_CoreFX.root.getChildren().remove(ME_CoreFX.totalTiles - 1);
+					ME_CoreFX.root.getChildren().remove(ME_CoreFX.totalTiles);
 					ME_CoreFX.root.getChildren().add(ME_CoreFX.printMap);
+					
+					ME_CoreFX.totalTiles++;
 				}
-			}
-		});
-		ME_CoreFX.UI_PlaceTileBG.setOnMouseMoved(new EventHandler<MouseEvent>() {
-
-			@Override
-			public void handle(MouseEvent event) {
-				if ((int) event.getX() + ME_CoreFX.cameraPosX > 0) {
-					ME_CoreFX.mouseX = (int) (Math.round(((int) (event.getX() + ME_CoreFX.cameraPosX)) / 100) * 100);
-				} else {
-					ME_CoreFX.mouseX = Math.floorDiv((int) event.getX() + ME_CoreFX.cameraPosX, 100) * 100;
-				}
-				
-				if ((int) event.getY() + ME_CoreFX.cameraPosY > 0) {
-					ME_CoreFX.mouseY = (int) (Math.round(((int) (event.getY() + ME_CoreFX.cameraPosY)) / 100) * 100);
-				} else {
-					ME_CoreFX.mouseY = Math.floorDiv((int) event.getY() + ME_CoreFX.cameraPosY, 100) * 100;
-				}
-//				System.out.println("ME_CoreFX.mouseX: " + ME_CoreFX.mouseX);
-//				System.out.println("ME_CoreFX.mouseY: " + ME_CoreFX.mouseY);
 			}
 		});
 	}
